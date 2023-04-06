@@ -2,15 +2,10 @@
 
 Game Link: https://wissam111.itch.io/spaceship-ass4-part1
 
-
-
-
-
 ## Implemented
 
 - 1- the space ship has 3 hits till it gets destroyed (3 hearts at start of the game)
 - 2- The player cannot shoot lasers non-stop, there is a trigger delay
-
 
 ## Changes
 
@@ -21,5 +16,3 @@ the changes where made in **scences -> triggers -> d-shield**
 - Background Music.
 - GameOver Screen.
 - Explosion animation.
-
-
