@@ -63,6 +63,7 @@ public class Playerlife : MonoBehaviour
             Destroy(other.gameObject);
             AudioSource.PlayClipAtPoint(lostLifeSoundEffect, transform.position);
             Destroy(hearts[life].gameObject);
+            hearts.RemoveAt(hearts.Count - 1);
             if (life < 1)
             {
                 dead = true;
